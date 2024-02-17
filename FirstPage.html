@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to SoapVibe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="my_account.html">My Account</a></li>
+                <li><a href="what_i_liked.html">What I Liked</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="creating_soaps.html">Creating Soaps</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="date-time">
+            <p id="currentDateTime"></p>
+        </div>
+        <section class="container">
+            <h1>Welcome to SoapVibe</h1>
+            <div class="box-container">
+                <div class="box" onclick="selectOption('my_account.html')">My Account</div>
+                <div class="box" onclick="selectOption('what_i_liked.html')">What I Liked</div>
+                <div class="box" onclick="selectOption('contact_us.html')">Contact Us</div>
+                <div class="box" onclick="selectOption('creating_soaps.html')">Creating Soaps</div>
+                <div class="box" onclick="selectOption('about_us.html')">About Us</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SoapVibe. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function selectOption(url) {
+            var boxes = document.querySelectorAll('.box');
+            boxes.forEach(function(box) {
+                if (box.innerHTML !== event.target.innerHTML) {
+                    box.style.transition = 'opacity 1s';
+                    box.style.opacity = '0';
+                }
+            });
+            setTimeout(function() {
+                window.location.href = url;
+            }, 1000);
+        }
+
+        function updateDateTime() {
+            var currentDate = new Date();
+            var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true };
+            var formattedDate = currentDate.toLocaleDateString('en-US', options);
+            document.getElementById('currentDateTime').textContent = formattedDate;
+        }
+
+        updateDateTime(); // Update immediately
+        setInterval(updateDateTime, 1000); // Update every second
+    </script>
+</body>
+</html>
