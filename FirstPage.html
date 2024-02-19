@@ -8,15 +8,7 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="my_account.html">My Account</a></li>
-                <li><a href="what_i_liked.html">What I Liked</a></li>
-                <li><a href="contact_us.html">Contact Us</a></li>
-                <li><a href="creating_soaps.html">Creating Soaps</a></li>
-                <li><a href="about_us.html">About Us</a></li>
-            </ul>
-        </nav>
+
     </header>
 
     <main>
@@ -26,11 +18,11 @@
         <section class="container">
             <h1>Welcome to SoapVibe</h1>
             <div class="box-container">
-                <div class="box" onclick="selectOption('my_account.html')">My Account</div>
+                <div class="box" onclick="goToMyAccount()">My Account</div>
                 <div class="box" onclick="selectOption('what_i_liked.html')">What I Liked</div>
-                <div class="box" onclick="selectOption('contact_us.html')">Contact Us</div>
+                <div class="box" onclick="GoToContactUs()">Contact Us</div>
                 <div class="box" onclick="selectOption('creating_soaps.html')">Creating Soaps</div>
-                <div class="box" onclick="selectOption('about_us.html')">About Us</div>
+                <div class="box" onclick="goToAboutUs()">About Us</div>
             </div>
         </section>
     </main>
@@ -40,24 +32,17 @@
     </footer>
 
     <script>
-        function selectOption(url) {
-            var boxes = document.querySelectorAll('.box');
-            boxes.forEach(function(box) {
-                if (box.innerHTML !== event.target.innerHTML) {
-                    box.style.transition = 'opacity 1s';
-                    box.style.opacity = '0';
-                }
-            });
-            setTimeout(function() {
-                window.location.href = url;
-            }, 1000);
-        }
+        function goToMyAccount() {
+            window.location.href = 'MyAccount.html';
 
+        }
+function goToAboutUs(){
+            window.location.href='AboutUs.html'
+}
         function updateDateTime() {
             var currentDate = new Date();
             var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true };
-            var formattedDate = currentDate.toLocaleDateString('en-US', options);
-            document.getElementById('currentDateTime').textContent = formattedDate;
+            document.getElementById('currentDateTime').textContent = currentDate.toLocaleDateString('en-US', options);
         }
 
         updateDateTime(); // Update immediately

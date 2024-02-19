@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa144067-a637-4170-8656-eb7d2a903e4b" name="Changes" comment="git init">
+      <change afterPath="$PROJECT_DIR$/GoToContactUs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContactUsStyles.html" beforeDir="false" afterPath="$PROJECT_DIR$/ContactUsStyles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreatingSoapsStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/CreatingSoapsStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/FirstPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyAccount.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/UserDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backToHomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/backToHomePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,23 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.AboutUs.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Saar&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.AboutUs.html.executor": "Run",
+    "JavaScript Debug.FirstPage.html.executor": "Run",
+    "JavaScript Debug.UserDashboard.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Saar",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -76,6 +85,7 @@
       <workItem from="1706360144492" duration="547000" />
       <workItem from="1708175705582" duration="11388000" />
       <workItem from="1708190067896" duration="4000" />
+      <workItem from="1708362381559" duration="3712000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <option name="closed" value="true" />

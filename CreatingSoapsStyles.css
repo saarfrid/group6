@@ -13,14 +13,14 @@ body {
 
 /* Header styles */
 header {
-    background-color: #ea8282;
+    background-color: #ff5e5e;
     padding: 10px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .back-btn {
     text-decoration: none;
-    color: #ea65ce;
+    color: #151313;
     font-weight: bold;
 }
 
