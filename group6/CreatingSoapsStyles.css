@@ -1,0 +1,74 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #ff5e5e;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.back-btn {
+    text-decoration: none;
+    color: #151313;
+    font-weight: bold;
+}
+
+/* Main content styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgb(114, 210, 187);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.criteria {
+    margin-bottom: 20px;
+}
+
+.criteria h2 {
+    margin-bottom: 10px;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Buttons container */
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Buttons styles */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8ab7f3;
+    color: #f59999;
+}
+
+/* Separate styles for inputs */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
