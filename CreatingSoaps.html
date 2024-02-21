@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creating Soaps - SoapVibe</title>
-    <link rel="stylesheet" href="CreatingSoapsStyles.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="CreatingSoapsStyles.css">
+    <script src="CreateSoap.js"></script>
+
     <style>
         .buttons-container {
             display: flex;
@@ -81,11 +83,15 @@
                 </div>
             </div>
 
-            <hr> <!-- Boundary between buttons -->
+            <hr>
 
             <div class="buttons-container">
                 <button onclick="calculatePrice()">Check Price</button>
-                <button onclick="createSoap()">Create Soap</button>
+                <button onclick="addSoapToCart()">Create Soap</button>
+            </div>
+
+            <div id="soapDetails" style="display: none;">
+                <!-- Display soap details here -->
             </div>
         </section>
     </main>
@@ -106,12 +112,15 @@
                 return;
             }
 
-            const totalPrice = ((selectedScent ? 1 : 0) + (selectedColor ? 1 : 0) + selectedAdditives.length + (selectedSoapBase ? 1 : 0)) * 5;
+            // Random but reasonable pricing (adjust as needed)
+            const basePrice = 5; // Base price per selected option
+            const randomMultiplier = Math.random() * (1.5 - 1) + 1; // Random multiplier between 1 and 1.5
+            const totalPrice = Math.round((basePrice * (1 + selectedAdditives.length)) * randomMultiplier);
 
             alert(`Total Price: ${totalPrice} NIS`);
         }
 
-        function createSoap() {
+        function addSoapToCart() {
             const selectedScent = document.querySelector('input[name="scent"]:checked');
             const selectedColor = document.querySelector('input[name="color"]:checked');
             const selectedAdditives = [...document.querySelectorAll('input[name="additives"]:checked')].map(checkbox => checkbox.value);
@@ -122,8 +131,38 @@
                 return;
             }
 
-            // Logic to create the soap and add it to the shopping cart
-            alert("Soap added to shopping cart!");
+            // Create a soap object with selected details
+            const soapDetails = {
+                scent: selectedScent.value,
+                color: selectedColor.value,
+                additives: selectedAdditives,
+                soapBase: selectedSoapBase.value
+            };
+
+            // Add the soap to the shopping cart
+            shoppingCart.push(soapDetails);
+
+            // Show success message
+            alert("Soap added to shopping cart successfully!");
+
+            // Clear selected options
+            clearSelectedOptions();
+        }
+
+        function clearSelectedOptions() {
+            const selectedScent = document.querySelector('input[name="scent"]:checked');
+            const selectedColor = document.querySelector('input[name="color"]:checked');
+            const selectedAdditives = [...document.querySelectorAll('input[name="additives"]:checked')];
+            const selectedSoapBase = document.querySelector('input[name="soap-base"]:checked');
+
+            // Uncheck selected options
+            if (selectedScent) selectedScent.checked = false;
+            if (selectedColor) selectedColor.checked = false;
+            selectedAdditives.forEach(checkbox => checkbox.checked = false);
+            if (selectedSoapBase) selectedSoapBase.checked = false;
+
+            // Hide soap details container
+            document.getElementById('soapDetails').style.display = 'none';
         }
     </script>
 </body>

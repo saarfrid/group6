@@ -1,3 +1,5 @@
+/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -63,11 +65,11 @@ h1 {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 20px;
-    transition: all 0.3s ease;
+    transition: opacity 0.5s ease;
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
-    color: white;
+    color: #000000;
     position: relative;
     overflow: hidden;
 }
@@ -79,7 +81,7 @@ h1 {
     left: -20px;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, #ffafbd, #ffc3a0);
+    background: linear-gradient(45deg, #4b3cff, #000000);
     z-index: -1;
     border-radius: 50%;
     transition: all 0.3s ease;
@@ -89,12 +91,20 @@ h1 {
     transform: scale(2);
 }
 
-.box:nth-child(odd) {
+.box:nth-child(1) {
     background-color: #4ea8de; /* Light Blue */
 }
-
-.box:nth-child(even) {
+.box:nth-child(2) {
+    background-color: #f76aff; /* Light Blue */
+}
+.box:nth-child(3) {
     background-color: #ffcccc; /* Light Coral */
+}
+.box:nth-child(4) {
+    background-color: #376fff; /* Light Coral */
+}
+.box:nth-child(5) {
+    background-color: #6effd5; /* Light Coral */
 }
 
 footer {

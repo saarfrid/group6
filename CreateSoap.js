@@ -1,15 +1,63 @@
-// Function to handle soap creation
+// soapvibe.js
+
+let shoppingCart = [];
+
+function calculatePrice() {
+    const selectedScent = document.querySelector('input[name="scent"]:checked');
+    const selectedColor = document.querySelector('input[name="color"]:checked');
+    const selectedAdditives = [...document.querySelectorAll('input[name="additives"]:checked')].map(checkbox => checkbox.value);
+    const selectedSoapBase = document.querySelector('input[name="soap-base"]:checked');
+
+    if (!selectedScent || !selectedColor || selectedAdditives.length === 0 || !selectedSoapBase) {
+        alert("Please select options for scent, color, additives, and soap base.");
+        return;
+    }
+
+    // Random but reasonable pricing (adjust as needed)
+    const basePrice = 5; // Base price per selected option
+    const randomMultiplier = Math.random() * (1.5 - 1) + 1; // Random multiplier between 1 and 1.5
+    const totalPrice = Math.round((basePrice * (1 + selectedAdditives.length)) * randomMultiplier);
+
+    alert(`Total Price: ${totalPrice} NIS`);
+}
+
 function createSoap() {
-    // Get form data
-    const scent = document.getElementById('scent').value;
-    const color = document.getElementById('color').value;
-    const additives = [...document.querySelectorAll('input[name="additives"]:checked')].map(input => input.value);
-    const soapBase = document.getElementById('soapBase').value;
+    const selectedScent = document.querySelector('input[name="scent"]:checked');
+    const selectedColor = document.querySelector('input[name="color"]:checked');
+    const selectedAdditives = [...document.querySelectorAll('input[name="additives"]:checked')].map(checkbox => checkbox.value);
+    const selectedSoapBase = document.querySelector('input[name="soap-base"]:checked');
 
-    // Create new soap object
-    const newSoap = { scent, color, additives, soapBase };
+    if (!selectedScent || !selectedColor || selectedAdditives.length === 0 || !selectedSoapBase) {
+        alert("Please select options for scent, color, additives, and soap base.");
+        return;
+    }
 
-    // Optional: Save the new soap to local storage or a database
+    // Create a soap object with selected details
+    const soapDetails = {
+        scent: selectedScent.value,
+        color: selectedColor.value,
+        additives: selectedAdditives,
+        soapBase: selectedSoapBase.value
+    };
 
-    // Optional: Show a success message or navigate to another page
+    // Add the soap to the shopping cart
+    shoppingCart.push(soapDetails);
+
+    // Clear selected options
+    clearSelectedOptions();
+
+    alert("Soap added to shopping cart!");
+}
+
+function clearSelectedOptions() {
+    // Clear selected options here
+    const selectedScent = document.querySelector('input[name="scent"]:checked');
+    const selectedColor = document.querySelector('input[name="color"]:checked');
+    const selectedAdditives = document.querySelectorAll('input[name="additives"]:checked');
+    const selectedSoapBase = document.querySelector('input[name="soap-base"]:checked');
+
+    if (selectedScent) selectedScent.checked = false;
+    if (selectedColor) selectedColor.checked = false;
+    selectedAdditives.forEach(checkbox => checkbox.checked = false);
+    if (selectedSoapBase) selectedSoapBase.checked = false;
 }

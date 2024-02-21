@@ -1,3 +1,3 @@
 function GoToContactUs() {
-    window.location.href = "ContactUsStyles.html";
+    window.location.href = "ContactUs.html";
 }
