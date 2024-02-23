@@ -20,10 +20,10 @@
             <h1>Welcome to SoapVibe</h1>
             <div class="box-container">
                 <div class="box" onclick="goToMyAccount()">My Account</div>
-                <div class="box" onclick="GoToShoppingCart()">Shopping Cart</div>
-                <div class="box" onclick="goToContactUs()">Contact Us</div>
                 <div class="box" onclick="GoToCreatingSoaps()">Creating Soaps</div>
+                <div class="box" onclick="GoToShoppingCart()">Shopping Cart</div>
                 <div class="box" onclick="goToAboutUs()">About Us</div>
+                <div class="box" onclick="goToContactUs()">Contact Us</div>
             </div>
         </section>
     </main>
@@ -34,30 +34,24 @@
 
     <script>
         function goToMyAccount() {
-            window.location.href = 'MyAccount.html';
-        }
+            window.location.href = 'MyAccount.html';}
 
         function GoToShoppingCart() {
-            window.location.href = 'ShoppingCart.html';
-        }
+            window.location.href = 'ShoppingCart.html';}
 
         function goToAboutUs() {
-            window.location.href = 'AboutUs.html';
-        }
+            window.location.href = 'AboutUs.html' ;}
+
+        function goToContactUs() {
+            window.location.href = 'ContactUs.html'; }
+
+        function GoToCreatingSoaps() {
+            window.location.href = 'CreatingSoaps.html'; }
 
         function updateDateTime() {
             var currentDate = new Date();
             var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true };
-            document.getElementById('currentDateTime').textContent = currentDate.toLocaleDateString('en-US', options);
-        }
-
-        function goToContactUs() {
-            window.location.href = 'ContactUs.html'; // Corrected file extension to .html
-        }
-
-        function GoToCreatingSoaps() {
-            window.location.href = 'CreatingSoaps.html'; // Corrected file extension to .html
-        }
+            document.getElementById('currentDateTime').textContent = currentDate.toLocaleDateString('en-US', options);}
 
         updateDateTime(); // Update immediately
         setInterval(updateDateTime, 1000); // Update every second
