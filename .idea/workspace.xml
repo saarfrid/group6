@@ -9,7 +9,10 @@
       <change beforePath="$PROJECT_DIR$/group6/HTML/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/AboutUs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/group6/HTML/ContactUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/ContactUs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/group6/HTML/CreatingSoaps.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/CreatingSoaps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/HTML/FirstPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/FirstPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/group6/HTML/MyAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/MyAccount.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/HTML/ShoppingCart.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/ShoppingCart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/HTML/UserDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/UserDashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/group6/HTML/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +97,7 @@
       <workItem from="1708362381559" duration="4141000" />
       <workItem from="1708522760184" duration="9626000" />
       <workItem from="1708534815922" duration="729000" />
-      <workItem from="1708621144682" duration="10552000" />
+      <workItem from="1708621144682" duration="13068000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <option name="closed" value="true" />

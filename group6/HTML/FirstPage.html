@@ -8,14 +8,10 @@
     <script src="../JS/HomePage.js"></script>
 </head>
 <body>
-    <header>
-
-    </header>
-
+    <header> </header>
     <main>
         <div class="date-time">
-            <p id="currentDateTime"></p>
-        </div>
+            <p id="currentDateTime"></p></div>
         <section class="container">
             <h1>Welcome to SoapVibe</h1>
             <div class="box-container">
@@ -27,7 +23,6 @@
             </div>
         </section>
     </main>
-
     <footer>
         <p>&copy; 2024 SoapVibe. All rights reserved.</p>
     </footer>
@@ -35,24 +30,18 @@
     <script>
         function goToMyAccount() {
             window.location.href = 'MyAccount.html';}
-
         function GoToShoppingCart() {
             window.location.href = 'ShoppingCart.html';}
-
         function goToAboutUs() {
             window.location.href = 'AboutUs.html' ;}
-
         function goToContactUs() {
             window.location.href = 'ContactUs.html'; }
-
         function GoToCreatingSoaps() {
             window.location.href = 'CreatingSoaps.html'; }
-
         function updateDateTime() {
             var currentDate = new Date();
             var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true };
             document.getElementById('currentDateTime').textContent = currentDate.toLocaleDateString('en-US', options);}
-
         updateDateTime(); // Update immediately
         setInterval(updateDateTime, 1000); // Update every second
     </script>

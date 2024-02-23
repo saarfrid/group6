@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="../CSS/FirstPageStyles.css">
 </head>
 <body>
-    <header>
-    </header>
-
+    <header> </header>
     <main>
         <section class="container">
             <h1>About Us</h1>
@@ -18,7 +16,7 @@
                 <p>Our vision is to provide high-quality, natural, and organic handmade soaps that promote well-being and sustainability. Each of our products is meticulously crafted with care and attention to detail, ensuring a luxurious and indulgent experience for our customers.</p>
                 <p>At <span class="highlight">SoapVibe</span>, we are committed to innovation, excellence, and customer satisfaction. Our team is dedicated to continuous improvement and creative exploration, striving to exceed expectations and set new standards in the industry.</p>
             </div>
-            <button type="submit" class="back-btn"><a href="FirstPage.html" class="back-btn">Back</a></button>
+            <button onclick="" class="back-btn"><a href="FirstPage.html" class="back-btn">Back</a></button>
         </section>
     </main>
 
@@ -30,16 +28,12 @@
         // Typing animation effect
         const text = "We, Dr. Kfir Alt and Dr. Saar Fridman, have been acquainted since our undergraduate years. Leveraging our strong collaboration and expertise in various fields, including finance, business, and economy, we embarked on a journey to establish a leading brand of soaps. Our vision is to provide high-quality, natural, and organic handmade soaps that promote well-being and sustainability. Each of our products is meticulously crafted with care and attention to detail, ensuring a luxurious and indulgent experience for our customers. At SoapVibe, we are committed to innovation, excellence, and customer satisfaction. Our team is dedicated to continuous improvement and creative exploration, striving to exceed expectations and set new standards in the industry.";
         let index = 0;
-
         function typeText() {
             document.querySelector('.about-text').innerHTML = text.slice(0, index);
             index++;
-
             if (index > text.length) {
-                index = text.length;
-            }
+                index = text.length; }
         }
-
         setInterval(typeText, 50); // Typing speed (milliseconds)
     </script>-->
 </body>
