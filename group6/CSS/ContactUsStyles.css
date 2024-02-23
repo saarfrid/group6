@@ -16,8 +16,8 @@ body {
 
 /* Header styles */
 header {
-    background-color: #f59999;
-    color: #fff;
+    background-color: #ffcccc;
+    color: black;
     padding: 20px;
     text-align: center;
 }
@@ -59,8 +59,8 @@ main {
     display: block;
     width: 100%;
     padding: 10px 0;
-    background-color: #f59999;
-    color: #fff;
+    background-color: #ffcccc;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -68,13 +68,13 @@ main {
 }
 
 .contact-form button:hover {
-    background-color: #0056b3;
+    background-color: hotpink;
 }
 
 /* Footer styles */
 footer {
-    background-color: #f59999;
-    color: #dcdcdc;
+    background-color: #ffcccc;
+    color: black;
     text-align: center;
     padding: 10px;
     position: fixed;

@@ -9,8 +9,8 @@ body {
     background-repeat: no-repeat;
 }
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffcccc;
+    color: black;
     padding: 10px 20px;
 }
 nav ul {
@@ -93,8 +93,8 @@ h1 {
     background-color: #ffcccc;
 }
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffcccc;
+    color: black;
     padding: 10px 20px;
     text-align: center;
 }
