@@ -6,6 +6,60 @@
   <component name="ChangeListManager">
     <list default="true" id="aa144067-a637-4170-8656-eb7d2a903e4b" name="Changes" comment="git init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/AboutUs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutUsStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/group6/CSS/AboutUsStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContactUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/ContactUs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContactUsScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/group6/JS/ContactUsScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContactUsStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/group6/CSS/ContactUsStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreateSoap.js" beforeDir="false" afterPath="$PROJECT_DIR$/group6/JS/CreateSoap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreatingSoaps.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/CreatingSoaps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreatingSoapsStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/group6/CSS/CreatingSoapsStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/FirstPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstPageStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/group6/CSS/FirstPageStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoToContactUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/group6/JS/GoToContactUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoToCreatingSoaps.js" beforeDir="false" afterPath="$PROJECT_DIR$/group6/JS/GoToCreatingSoaps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoToShoppingCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/group6/JS/GoToShoppingCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/group6/JS/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/MyAccount.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySoaps.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/MySoaps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingCart.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/ShoppingCart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/group6/JS/ShoppingCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingCartStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/group6/CSS/ShoppingCartStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Soap.js" beforeDir="false" afterPath="$PROJECT_DIR$/group6/JS/Soap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StylesMyAccount.css" beforeDir="false" afterPath="$PROJECT_DIR$/group6/CSS/StylesMyAccount.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/UserDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/group6/JS/UserDashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDashboardStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/group6/CSS/UserDashboardStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backToHomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/group6/JS/backToHomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/AboutUs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/AboutUsStyles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/ContactUs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/ContactUsScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/ContactUsStyles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/CreateSoap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/CreatingSoaps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/CreatingSoapsStyles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/FirstPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/FirstPageStyles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/GoToContactUs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/GoToCreatingSoaps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/GoToShoppingCart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/HomePage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/MyAccount.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/MySoaps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/ShoppingCart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/ShoppingCart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/ShoppingCartStyles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/Soap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/StylesMyAccount.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/UserDashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/UserDashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/UserDashboardStyles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/backToHomePage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/signupstyles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signupstyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/group6/CSS/signupstyles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +113,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\97255\PycharmProjects\group6\group6\CSS" />
+      <recent name="C:\Users\97255\PycharmProjects\group6\group6\HTML" />
+      <recent name="C:\Users\97255\PycharmProjects\group6\group6\JS" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,7 +143,7 @@
       <workItem from="1708362381559" duration="4141000" />
       <workItem from="1708522760184" duration="9626000" />
       <workItem from="1708534815922" duration="729000" />
-      <workItem from="1708621144682" duration="757000" />
+      <workItem from="1708621144682" duration="4900000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <option name="closed" value="true" />
