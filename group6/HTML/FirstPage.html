@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to SoapVibe</title>
-    <link rel="stylesheet" href="../CSS/FirstPageStyles.css">
+    <link rel="stylesheet" href="../CSS/FirstPage.css">
     <script src="../JS/HomePage.js"></script>
 </head>
 <body>
-    <header> </header>
+    <header>
+    </header>
     <main>
         <div class="date-time">
             <p id="currentDateTime"></p></div>
@@ -38,12 +39,7 @@
             window.location.href = 'ContactUs.html'; }
         function GoToCreatingSoaps() {
             window.location.href = 'CreatingSoaps.html'; }
-        function updateDateTime() {
-            var currentDate = new Date();
-            var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true };
-            document.getElementById('currentDateTime').textContent = currentDate.toLocaleDateString('en-US', options);}
-        updateDateTime(); // Update immediately
-        setInterval(updateDateTime, 1000); // Update every second
+
     </script>
 </body>
 </html>

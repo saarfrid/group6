@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Account - SoapVibe</title>
-    <link rel="stylesheet" href="../CSS/FirstPageStyles.css">
+    <link rel="stylesheet" href="../CSS/Signupstyles.css">
 </head>
 <body>
     <header> </header>
@@ -22,7 +22,7 @@
                     <input type="text" id="lastName" name="lastName" required placeholder="Enter your last name"> </div><br>
                 <div class="input-group">
                     <label for="gender">Gender</label>
-                    <select id="gender" name="email" required>
+                    <select id="gender" name="gender" required>
                         <option value="Choose">Choose</option>
                         <option value="Male">Male</option>
                         <option value="Male">Female</option>
@@ -42,10 +42,10 @@
                 <div class="input-group">
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" pattern="^(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{6,}$" required placeholder="Enter your password"> </div><br>
-                <p class="password-warning">Password must be at least 6 characters long and contain at least one capital letter and one number.</p>
                 <div class="btn-group">
-                    <button type="submit" class="signup-btn">Create</button><br><br><br>
-                    <button type="submit" class="back-btn"><a href="MyAccount.html" class="back-btn">Back</a></button></div>
+                    <input type="submit" id="submit" name="" value="create"><br><br><br>
+                    <button type="submit" class="back-btn"><a href="MyAccount.html" class="back-btn">Back</a></button>
+                </div>
             </form>
         </section>
     </main>
@@ -53,7 +53,7 @@
         <p>&copy; 2024 SoapVibe. All rights reserved.</p>
     </footer>
 
-    <script>
+    <!--<script>
         function updateDateTime() {
             var currentDate = new Date();
             var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true };
@@ -61,6 +61,6 @@
             document.getElementById('currentDateTime').textContent = formattedDate; }
         updateDateTime(); // Update immediately
         setInterval(updateDateTime, 1000); // Update every second
-    </script>
+    </script>-->
 </body>
 </html>

@@ -1,14 +1,65 @@
-/* Previous styles here */
+header {
+    background-color: #ffcccc;
+    color: black;
+    padding: 10px 20px;
+}
+
+h1 {
+    padding: 10px 15px;
+    text-align: center;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/shimmery-pink-paint-textured-background_53876-102630.jpg?w=996&t=st=1708698985~exp=1708699585~hmac=b444349ffb33ad83af009ef5e21e1f77c6928d278e6e2aed44877469ad21b842');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
 
 .about-text {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: lavenderblush;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     color: #222;
 }
 
-.highlight {
-    color: #4ea8de; /* Light Blue */
+.back-btn {
+    text-decoration: none;
+    color: #151313;
     font-weight: bold;
+    float: right;
+    text-align: left;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #8ab7f3;
+    color: #f59999;
+}
+footer {
+    background-color: #ffcccc;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

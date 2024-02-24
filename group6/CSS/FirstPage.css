@@ -1,3 +1,8 @@
+header {
+    background-color: #ffcccc;
+    color: black;
+    padding: 10px 20px;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -8,11 +13,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-header {
-    background-color: #ffcccc;
-    color: black;
-    padding: 10px 20px;
-}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -35,7 +36,7 @@ main {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: lavenderblush;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -95,6 +96,9 @@ h1 {
 footer {
     background-color: #ffcccc;
     color: black;
-    padding: 10px 20px;
     text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
 }

@@ -1,4 +1,8 @@
-/* ShoppingCartStyles.css */
+header {
+    background-color: #ffcccc;
+    color: black;
+    padding: 10px 20px;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -8,19 +12,6 @@ body {
     background-image: url('https://img.freepik.com/free-photo/shimmery-pink-paint-textured-background_53876-102630.jpg?w=996&t=st=1708698985~exp=1708699585~hmac=b444349ffb33ad83af009ef5e21e1f77c6928d278e6e2aed44877469ad21b842');
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-}
-
-.back-btn {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
 main {
     text-align: center;
 }
@@ -28,7 +19,7 @@ main {
 .container {
     max-width: 800px;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: lavenderblush;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -50,23 +41,45 @@ table, th, td {
 
 th, td {
     padding: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 th {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #ffcccc;
+    color: black;
 }
 
 #totalPrice {
     font-size: 18px;
     font-weight: bold;
-    color: #333;
+    color: black;
+}
+
+.back-btn {
+    text-decoration: none;
+    color: #151313;
+    font-weight: bold;
+    float: right;
+    text-align: left;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #8ab7f3;
+    color: #f59999;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
+    background-color: #ffcccc;
+    color: black;
     text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

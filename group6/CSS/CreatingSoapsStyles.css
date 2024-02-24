@@ -1,27 +1,29 @@
+header {
+    background-color: #ffcccc;
+    color: black;
+    padding: 10px 20px;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+h1 {
+    padding: 10px 15px;
+    text-align: center;
 }
 body {
     font-family: Arial, sans-serif;
     color: #333;
     background-image: url('https://img.freepik.com/free-photo/shimmery-pink-paint-textured-background_53876-102630.jpg?w=996&t=st=1708698985~exp=1708699585~hmac=b444349ffb33ad83af009ef5e21e1f77c6928d278e6e2aed44877469ad21b842');
 }
-header {
-    background-color: white;
-    padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-.back-btn {
-    text-decoration: none;
-    color: #151313;
-    font-weight: bold;
-}
+
 .container {
     max-width: 800px;
     margin: 20px auto;
-    background-color: white;
+    background-color: lavenderblush;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -41,15 +43,34 @@ header {
 button {
     padding: 10px 20px;
     border: none;
+    font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 button:hover {
     background-color: #8ab7f3;
-    color: #f59999;
+    color: black;
 }
+
 input[type="radio"],
 input[type="checkbox"] {
     margin-right: 5px;
+}
+
+.back-btn {
+    text-decoration: none;
+    color: #151313;
+    font-weight: bold;
+    float: right;
+    text-align: left;
+}
+
+footer {
+    background-color: #ffcccc;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
 }
