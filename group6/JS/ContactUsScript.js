@@ -6,8 +6,5 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     const phone = document.getElementById('phone').value;
     const message = document.getElementById('message').value;
 
-
     document.getElementById('contactForm').reset();
-
-
 });

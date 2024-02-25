@@ -1,4 +1,3 @@
-// script.js
 
 function startDisappearAnimation({selectedOption}) {
     var buttonsToDisappear = document.querySelectorAll('.box');

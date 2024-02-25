@@ -1,4 +1,3 @@
-// ShoppingCartScript.js
 
 // Dummy data representing soaps in the cart with added time information
 const cartItemsData = [
