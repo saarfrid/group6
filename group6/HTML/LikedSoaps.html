@@ -6,23 +6,17 @@
     <title>Create Your Soap - SoapVibe</title>
    <link rel="stylesheet" href="../CSS/CreatingSoapsStyles.css">
     <script src="../JS/CreateSoap.js"></script>
-    <style>
-        .buttons-container {
-            display: flex;
-            justify-content: space-between;
-        }
-    </style>
 </head>
 <body>
     <header>
     </header>
 
     <main>
-        <section class="container">
-            <h1>Customize your favorite soap</h1><br><br>
+        <br><br> <h1>Customize your favorite soap</h1><br><br>
+        <div class="container">
             <div class="criteria">
                 <h2>Scent</h2>
-                <div class="options">
+                <div class="options" id="scent">
                     <label><input type="radio" name="scent" value="lavender"> Lavender</label>
                     <label><input type="radio" name="scent" value="peppermint"> Peppermint</label>
                     <label><input type="radio" name="scent" value="lemon"> Lemon</label>
@@ -33,9 +27,10 @@
                     <label><input type="radio" name="scent" value="jasmine"> Jasmine</label>
                 </div>
             </div>
+            <hr>
             <div class="criteria">
                 <h2>Color</h2>
-                <div class="options">
+                <div class="options" id="color">
                     <label><input type="radio" name="color" value="blue"> Blue</label>
                     <label><input type="radio" name="color" value="pink"> Pink</label>
                     <label><input type="radio" name="color" value="green"> Green</label>
@@ -46,9 +41,10 @@
                     <label><input type="radio" name="color" value="white"> White</label>
                 </div>
             </div>
+            <hr>
             <div class="criteria">
                 <h2>Additives</h2>
-                <div class="options">
+                <div class="options" id="additives">
                     <label><input type="checkbox" name="additives" value="oatmeal"> Oatmeal</label>
                     <label><input type="checkbox" name="additives" value="honey"> Honey</label>
                     <label><input type="checkbox" name="additives" value="activated_charcoal"> Activated Charcoal</label>
@@ -59,9 +55,10 @@
                     <label><input type="checkbox" name="additives" value="almond_oil"> Almond Oil</label>
                 </div>
             </div>
+            <hr>
             <div class="criteria">
                 <h2>Soap Base</h2>
-                <div class="options">
+                <div class="options" id="base">
                     <label><input type="radio" name="soap-base" value="olive_oil"> Olive Oil</label>
                     <label><input type="radio" name="soap-base" value="coconut_oil"> Coconut Oil</label>
                     <label><input type="radio" name="soap-base" value="shea_butter"> Shea Butter</label>
@@ -72,12 +69,9 @@
                     <label><input type="radio" name="soap-base" value="palm_oil"> Palm Oil</label>
                 </div>
             </div>
-            <hr>
-            <div class="buttons-container">
-                <button onclick="addSoapToCart()">Create Soap</button>
-                <button onclick="" class="back-btn"><a href="UserDashboard.html" class="back-btn">Back</a></button>
-            </div>
-        </section>
+            <button onclick="addSoapToCart()">Create Soap</button>
+            <button onclick="" class="back-btn"><a href="UserDashboard.html" class="back-btn">Back</a></button>
+        </div>
     </main>
 
     <footer>

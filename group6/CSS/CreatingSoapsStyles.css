@@ -27,7 +27,18 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
+
+hr {
+    margin: 30px;
+    font-weight: bold;
+}
+
 .criteria {
     margin-bottom: 20px;}
 .criteria h2 {
@@ -36,10 +47,7 @@ body {
     display: block;
     margin-bottom: 5px;
 }
-.buttons-container {
-    display: flex;
-    justify-content: space-between;
-}
+
 button {
     padding: 10px 20px;
     border: none;
@@ -55,14 +63,14 @@ button:hover {
 
 input[type="radio"],
 input[type="checkbox"] {
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .back-btn {
     text-decoration: none;
     color: #151313;
     font-weight: bold;
-    float: right;
+    float: none;
     text-align: left;
 }
 
@@ -70,6 +78,7 @@ footer {
     background-color: #ffcccc;
     color: black;
     text-align: center;
+    position: fixed;
     padding: 10px;
     bottom: 0;
     width: 100%;
