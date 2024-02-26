@@ -15,30 +15,29 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+h1{
+    color: #333333;
+    font-size: 40px;
+    text-align: center;
+}
+
 main {
     flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .container {
     background-color: lavenderblush;
-    padding: 80px;
+    padding: 70px;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     text-align: center;
     max-width: 400px;
     width: 100%;
-    animation: fadeIn 1s ease;
 }
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-h1 {
-    padding: 10px 15px;
-    text-align: center;
-}
+
 .input-group {
     margin-bottom: 20px;
     text-align: left;
@@ -53,34 +52,31 @@ h1 {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    transition: border-color 0.3s ease;
 }
 .input-group input:focus {
-    border-color: #4ea8de; /* Light Blue */
+    border-color: #4ea8de;
 }
-
-.login-btn, .google-btn {
+.login-btn{
     display: inline-block;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #4ea8de; /* Light Blue */
+    background-color: #4ea8de;
     color: white;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-decoration: none;
 }
-
-.login-btn:hover, .google-btn:hover {
-    background-color: #3a92be; /* Slightly darker shade of blue */
+.login-btn:hover{
+    background-color: #3a92be;
 }
-
 .create-account-link a {
     text-decoration: none;
-    margin: 10px;
-    padding: 10px 20px;
-    font-weight: bold;
+    margin: 5px;
+    padding: 10px 15px;
     width: 20%;
+    font-size: 14px;
     background-color: #ffcccc;
     border: none;
     border-radius: 5px;
@@ -91,22 +87,9 @@ h1 {
     background-color: #8ab7f3;
     color: black;
 }
-
 #loginLink{
     color: White;
     text-decoration: none;
-}
-
-.back-btn {
-    text-decoration: none;
-    color: #151313;
-    font-weight: bold;
-    float: right;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 footer {
