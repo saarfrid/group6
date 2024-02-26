@@ -11,37 +11,50 @@
     <main>
         <section class="container">
             <div class="date-time">
-                <p id="currentDateTime"></p> </div>
-            <h1>Create an Account</h1>
+                <p id="currentDateTime"></p>
+            </div>
+            <div class="h1-box">
+                <h1>Create new account</h1>
+            </div>
+            <h4> Required *</h4>
             <form action="#" method="POST" class="signup-form">
                 <div class="input-group">
-                    <label for="firstName">First Name</label>
-                    <input type="text" id="firstName" name="firstName" required placeholder="Enter your first name"> </div><br>
+                    <label for="firstName">First Name *</label>
+                    <input type="text" id="firstName" name="firstName" required placeholder="Enter your first name">
+                </div><br>
                 <div class="input-group">
-                    <label for="lastName">Last Name</label>
-                    <input type="text" id="lastName" name="lastName" required placeholder="Enter your last name"> </div><br>
+                    <label for="lastName">Last Name *</label>
+                    <input type="text" id="lastName" name="lastName" required placeholder="Enter your last name">
+                </div><br>
                 <div class="input-group">
                     <label for="gender">Gender</label>
                     <select id="gender" name="gender" required>
                         <option value="Choose">Choose</option>
                         <option value="Male">Male</option>
                         <option value="Male">Female</option>
-                        <option value="Male">Other</option></select></div><br>
+                        <option value="Male">Other</option>
+                    </select>
+                </div><br>
                 <div class="input-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required placeholder="Enter your Email"> </div><br>
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your Email">
+                </div><br>
                 <div class="input-group">
-                    <label for="phoneNumber">Phone Number</label>
-                    <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0][0-9]{9}" required placeholder="Enter your phone number"> </div><br>
+                    <label for="phoneNumber">Phone Number *</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="Enter your phone number">
+                </div><br>
                 <div class="input-group">
                     <label for="dob">Date of Birth</label>
-                    <input type="date" id="dob" name="dob" required> </div><br>
+                    <input type="date" id="dob" name="dob">
+                </div><br>
                 <div class="input-group">
-                    <label for="username">Username</label>
-                    <input type="text" id="username" name="username" required placeholder="Enter your user name"> </div><br>
+                    <label for="username">Username *</label>
+                    <input type="text" id="username" name="username" required placeholder="Enter your user name">
+                </div><br>
                 <div class="input-group">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" pattern="^(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{6,}$" required placeholder="Enter your password"> </div><br>
+                    <label for="password">Password *</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter your password">
+                </div><br>
                 <div class="btn-group">
                     <input type="submit" id="submit" name="" value="create"><br><br><br>
                     <button type="submit" class="back-btn"><a href="Login.html" class="back-btn">Back</a></button>
@@ -50,5 +63,6 @@
         </section>
     </main>
     <footer><p>&copy; 2024 SoapVibe. All rights reserved.</p></footer>
+    <script src="../JS/SignUp.js"></script>
 </body>
 </html>
