@@ -11,11 +11,9 @@ body {
     background-color: #f2f2f2;
     background-image: url('https://img.freepik.com/free-photo/shimmery-pink-paint-textured-background_53876-102630.jpg?w=996&t=st=1708698985~exp=1708699585~hmac=b444349ffb33ad83af009ef5e21e1f77c6928d278e6e2aed44877469ad21b842');
 }
-
 main {
     text-align: center;
 }
-
 .container {
     max-width: 800px;
     margin: 20px auto;
@@ -24,38 +22,32 @@ main {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
-
 h1 {
     margin-bottom: 20px;
+    font-size: 45px;
+    color: #333333;
 }
-
 table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
-}
-
-table, th, td {
     border: 1px solid #ddd;
 }
-
 th, td {
     padding: 10px;
     text-align: center;
+    border: 1px solid #ddd;
 }
-
 th {
     background-color: #ffcccc;
     color: black;
 }
-
 #totalPrice {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
-    color: black;
+    color: #333333;
 }
-
-.back-btn {
+.go-to-btn {
     text-decoration: none;
     color: #151313;
     font-weight: bold;
@@ -73,7 +65,6 @@ button:hover {
     background-color: #8ab7f3;
     color: #f59999;
 }
-
 footer {
     background-color: #ffcccc;
     color: black;
