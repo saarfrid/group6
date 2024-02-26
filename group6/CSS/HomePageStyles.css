@@ -5,45 +5,35 @@ header {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: lavenderblush;
     background-image: url('https://img.freepik.com/free-photo/shimmery-pink-paint-textured-background_53876-102630.jpg?w=996&t=st=1708698985~exp=1708699585~hmac=b444349ffb33ad83af009ef5e21e1f77c6928d278e6e2aed44877469ad21b842');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+h1{
+    color: #333333;
+    font-size: 45px;
 }
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+#userGreeting{
+    color: #333333;
+    font-size: 20px;
+    text-align: center;
 }
 main {
     text-align: center;
-}
-.date-time {
-    margin-bottom: 20px;
 }
 .container {
     max-width: 800px;
     margin: 0 auto;
     background-color: lavenderblush;
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     text-align: center;
-    padding: 20px;
-}
-h1 {
-    margin-bottom: 30px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 .box-container {
     display: flex;
@@ -52,7 +42,7 @@ h1 {
     flex-wrap: wrap;
 }
 .box {
-    width: calc(50% - 20px);
+    width: 70%;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 20px;
@@ -63,41 +53,11 @@ h1 {
     color: #000000;
     position: relative;
     overflow: hidden;
+    background-color: #ffcccc;
 }
-
 .boxLinks{
     text-decoration: none;
     color: black;
-}
-.box::before {
-    content: "";
-    position: absolute;
-    top: -20px;
-    left: -20px;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(45deg, #4b3cff, #000000);
-    z-index: -1;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-}
-.box:hover::before {
-    transform: scale(2);
-}
-.box:nth-child(1) {
-    background-color: #ffcccc;
-}
-.box:nth-child(2) {
-    background-color: #ffcccc;
-}
-.box:nth-child(3) {
-    background-color: #ffcccc;
-}
-.box:nth-child(4) {
-    background-color: #ffcccc;
-}
-.box:nth-child(5) {
-    background-color: #ffcccc;
 }
 footer {
     background-color: #ffcccc;
