@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa144067-a637-4170-8656-eb7d2a903e4b" name="Changes" comment="git init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/group6/HTML/LikedSoaps.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/LikedSoaps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/group6/JS/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/group6/JS/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/HTML/FirstPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/FirstPage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
       <workItem from="1708522760184" duration="9626000" />
       <workItem from="1708534815922" duration="729000" />
       <workItem from="1708621144682" duration="38891000" />
-      <workItem from="1708842357685" duration="32068000" />
+      <workItem from="1708842357685" duration="33095000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <option name="closed" value="true" />
