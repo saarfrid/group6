@@ -37,7 +37,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         return false;
     }
-
     function showMessage(message, color) {
         const toast = document.createElement('div');
         toast.textContent = message;
