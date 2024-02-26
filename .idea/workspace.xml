@@ -5,12 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa144067-a637-4170-8656-eb7d2a903e4b" name="Changes" comment="git init">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/group6/CSS/AboutUsStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/group6/CSS/AboutUsStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/CSS/FirstPageStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/group6/CSS/FirstPageStyles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/group6/HTML/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/AboutUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/group6/JS/ContactUsScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/group6/JS/ContactUsScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/group6/JS/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/group6/JS/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/group6/JS/ShoppingCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/group6/JS/ShoppingCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/HTML/ContactUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/ContactUs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/HTML/CreatingSoaps.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/CreatingSoaps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/HTML/FirstPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/FirstPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/HTML/LikedSoaps.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/LikedSoaps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/HTML/ShoppingCart.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/ShoppingCart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/HTML/UserDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/UserDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/HTML/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/group6/HTML/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/JS/CreateSoap.js" beforeDir="false" afterPath="$PROJECT_DIR$/group6/JS/CreateSoap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/JS/GoToContactUs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/JS/GoToCreatingSoaps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/JS/GoToShoppingCart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/JS/Soap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/JS/UserDashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/group6/JS/backToHomePage.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +107,7 @@
       <workItem from="1708522760184" duration="9626000" />
       <workItem from="1708534815922" duration="729000" />
       <workItem from="1708621144682" duration="38891000" />
-      <workItem from="1708842357685" duration="9436000" />
+      <workItem from="1708842357685" duration="13408000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <option name="closed" value="true" />

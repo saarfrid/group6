@@ -5,41 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to SoapVibe</title>
     <link rel="stylesheet" href="../CSS/FirstPageStyles.css">
-    <script src="../JS/HomePage.js"></script>
 </head>
 <body>
-    <header>
-    </header>
+    <header></header>
     <main>
         <div class="date-time">
             <p id="currentDateTime"></p></div>
         <section class="container">
             <h1>Welcome to SoapVibe</h1>
             <div class="box-container">
-                <div class="box" onclick="goToUserDashboard()">My Account</div>
-                <div class="box" onclick="GoToCreatingSoaps()">Creating Soaps</div>
-                <div class="box" onclick="GoToShoppingCart()">Shopping Cart</div>
-                <div class="box" onclick="goToAboutUs()">About Us</div>
-                <div class="box" onclick="goToContactUs()">Contact Us</div>
+                <div class="box" onclick=""><a href="UserDashboard.html" class="boxLinks">My Account</a></div>
+                <div class="box" onclick=""><a href="CreatingSoaps.html" class="boxLinks">Creating Soaps</a></div>
+                <div class="box" onclick=""><a href="ShoppingCart.html" class="boxLinks">Shopping Cart</a></div>
+                <div class="box" onclick=""><a href="AboutUs.html" class="boxLinks">About Us</a></div>
+                <div class="box" onclick=""><a href="ContactUs.html" class="boxLinks">Contact Us</a></div>
             </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 SoapVibe. All rights reserved.</p>
-    </footer>
-
-    <script>
-        function goToUserDashboard() {
-            window.location.href = 'UserDashboard.html';}
-        function GoToShoppingCart() {
-            window.location.href = 'ShoppingCart.html';}
-        function goToAboutUs() {
-            window.location.href = 'AboutUs.html' ;}
-        function goToContactUs() {
-            window.location.href = 'ContactUs.html'; }
-        function GoToCreatingSoaps() {
-            window.location.href = 'CreatingSoaps.html'; }
-
-    </script>
+    <footer><p>&copy; 2024 SoapVibe. All rights reserved.</p></footer>
+    <script src="../JS/HomePage.js"></script>
 </body>
 </html>

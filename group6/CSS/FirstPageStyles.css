@@ -47,6 +47,7 @@ h1 {
 }
 .box-container {
     display: flex;
+    text-decoration: none;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -62,6 +63,11 @@ h1 {
     color: #000000;
     position: relative;
     overflow: hidden;
+}
+
+.boxLinks{
+    text-decoration: none;
+    color: black;
 }
 .box::before {
     content: "";
