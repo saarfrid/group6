@@ -11,8 +11,12 @@ header {
 }
 
 h1 {
-    padding: 10px 15px;
     text-align: center;
+    font-size: 45px;
+}
+h4{
+    text-align: center;
+    font-size: 15px;
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -66,7 +70,7 @@ input[type="checkbox"] {
     margin-right: 10px;
 }
 
-.back-btn {
+.go-to-btn {
     text-decoration: none;
     color: #151313;
     font-weight: bold;

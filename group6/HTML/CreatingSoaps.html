@@ -9,7 +9,8 @@
 <body>
     <header></header>
     <main>
-        <br><br><h1>Creating Soaps</h1><br><br>
+        <br><br><h1>Creating your soap</h1><br>
+        <h4>Choose scent, color, base and additives</h4>
         <section class="container">
             <div class="criteria">
                 <h2>Scent</h2>
@@ -40,6 +41,20 @@
             </div>
             <hr>
             <div class="criteria">
+                <h2>Base</h2>
+                <div class="options">
+                    <label><input type="radio" name="soap-base" value="olive_oil"> Olive Oil</label>
+                    <label><input type="radio" name="soap-base" value="coconut_oil"> Coconut Oil</label>
+                    <label><input type="radio" name="soap-base" value="shea_butter"> Shea Butter</label>
+                    <label><input type="radio" name="soap-base" value="goat_milk"> Goat Milk</label>
+                    <label><input type="radio" name="soap-base" value="almond_oil"> Almond Oil</label>
+                    <label><input type="radio" name="soap-base" value="avocado_oil"> Avocado Oil</label>
+                    <label><input type="radio" name="soap-base" value="castor_oil"> Castor Oil</label>
+                    <label><input type="radio" name="soap-base" value="palm_oil"> Palm Oil</label>
+                </div>
+            </div>
+            <hr>
+            <div class="criteria">
                 <h2>Additives</h2>
                 <div class="options">
                     <label><input type="checkbox" name="additives" value="oatmeal"> Oatmeal</label>
@@ -52,24 +67,11 @@
                     <label><input type="checkbox" name="additives" value="almond_oil"> Almond Oil</label>
                 </div>
             </div>
-            <hr>
-            <div class="criteria">
-                <h2>Soap Base</h2>
-                <div class="options">
-                    <label><input type="radio" name="soap-base" value="olive_oil"> Olive Oil</label>
-                    <label><input type="radio" name="soap-base" value="coconut_oil"> Coconut Oil</label>
-                    <label><input type="radio" name="soap-base" value="shea_butter"> Shea Butter</label>
-                    <label><input type="radio" name="soap-base" value="goat_milk"> Goat Milk</label>
-                    <label><input type="radio" name="soap-base" value="almond_oil"> Almond Oil</label>
-                    <label><input type="radio" name="soap-base" value="avocado_oil"> Avocado Oil</label>
-                    <label><input type="radio" name="soap-base" value="castor_oil"> Castor Oil</label>
-                    <label><input type="radio" name="soap-base" value="palm_oil"> Palm Oil</label>
-                </div>
-            </div>
             <div class="buttons-container">
                 <button onclick="calculatePrice()">Check Price</button>
-                <button onclick="addSoapToCart()">Create Soap</button>
-                <button onclick="" class="back-btn"><a href="FirstPage.html" class="back-btn">Back</a></button>
+                <button onclick="addSoapToCart()">Add to cart</button>
+                <button onclick="" class=""><a href="ShoppingCart.html" class="go-to-btn">Go to cart</a></button>
+                <button onclick="" class="back-btn"><a href="FirstPage.html" class="go-to-btn">Back</a></button>
             </div>
         </section>
     </main>
