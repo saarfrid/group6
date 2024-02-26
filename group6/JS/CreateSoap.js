@@ -1,4 +1,5 @@
 let shoppingCart = [];
+let wishlist = [];
 function calculatePrice(){
     const selectedScent = document.querySelector('input[name="scent"]:checked');
     const selectedColor = document.querySelector('input[name="color"]:checked');
@@ -14,7 +15,7 @@ function calculatePrice(){
     const totalPrice = Math.round((basePrice * (1 + selectedAdditives.length)) * randomMultiplier);
     alert(`Total Price: ${totalPrice} NIS`);
 }
-function addSoapToCart() {
+function addSoap(string) {
     const selectedScent = document.querySelector('input[name="scent"]:checked');
     const selectedColor = document.querySelector('input[name="color"]:checked');
     const selectedAdditives = [...document.querySelectorAll('input[name="additives"]:checked')].map(checkbox => checkbox.value);
@@ -28,8 +29,12 @@ function addSoapToCart() {
         additives: selectedAdditives,
         soapBase: selectedSoapBase.value
     };
+    if (string === "ToCart") {
     shoppingCart.push(soapDetails);
-    showMessage("Soap added to shopping cart successfully!");
+    showMessage("Soap added to shopping cart successfully!");}
+    if (string === "ToWishlist") {
+    wishlist.push(soapDetails);
+    showMessage("Soap added to wishlist successfully!");}
     clearSelectedOptions();
 }
 
