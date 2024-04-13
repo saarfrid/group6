@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - SoapVibe</title>
+    <link rel="stylesheet" href="ShoppingCartStyles.css"> <!-- Add your CSS file -->
+</head>
+<body>
+    <header>
+        <a href="FirstPage.html" class="back-btn">Back to Home Page</a>
+    </header>
+
+    <main>
+        <section class="container">
+            <h1>Shopping Cart</h1>
+
+            <!-- Table to display soaps in the shopping cart -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time Added</th>
+                        <th>Scent</th>
+                        <th>Color</th>
+                        <th>Additives</th>
+                        <th>Soap Base</th>
+                    </tr>
+                </thead>
+                <tbody id="cartItems">
+                    <!-- Rows will be dynamically added here using JavaScript -->
+                </tbody>
+            </table>
+
+            <!-- Total price display -->
+            <div id="totalPrice"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SoapVibe. All rights reserved.</p>
+    </footer>
+
+    <script src="ShoppingCart.js"></script> <!-- Add your JavaScript file -->
+</body>
+</html>

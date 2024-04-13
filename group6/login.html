@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - SoapVibe</title>
+    <link rel="stylesheet" href="FirstPageStyles.css">
+</head>
+<body>
+    <header>
+        <a href="FirstPage.html" class="back-btn">Back to Home Page</a>
+    </header>
+
+    <main>
+        <section class="container">
+            <h1>Login</h1>
+            <div id="error-message" class="error-message" style="display: {% if error_message %}block{% else %}none{% endif %};">{{ error_message }}</div>
+            <form action="/login" method="POST" class="login-form">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="login-btn">Login</button>
+            </form>
+            <p class="create-account-link">Don't have an account? <a href="/signup">Create one now</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SoapVibe. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Function to display welcome message with user's name
+        function displayWelcomeMessage(name) {
+            alert("Welcome, " + name + "!");
+        }
+
+        // Attach click event listener to user's information
+        var userInfoLink = document.getElementById("user-info-link");
+        userInfoLink.addEventListener("click", function() {
+            var userName = userInfoLink.textContent;
+            displayWelcomeMessage(userName);
+        });
+    </script>
+</body>
+</html>
