@@ -1,0 +1,114 @@
+header {
+    background-color: #ffcccc;
+    color: black;
+    padding: 10px 20px;
+}
+
+h1 {
+    padding: 10px 15px;
+    text-align: center;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/shimmery-pink-paint-textured-background_53876-102630.jpg?w=996&t=st=1708698985~exp=1708699585~hmac=b444349ffb33ad83af009ef5e21e1f77c6928d278e6e2aed44877469ad21b842');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+h1{
+    font-size: 40px;
+    color: #333333;
+}
+
+.about-text {
+    padding: 20px;
+    background-color: lavenderblush;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: #222;
+}
+
+.about-text p {
+    opacity: 0;
+    padding: 15px;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.about-text p:nth-child(1) {
+    animation-delay: 1s;
+}
+
+.about-text p:nth-child(2) {
+    animation-delay: 3s;
+}
+
+.about-text p:nth-child(3) {
+    animation-delay: 5s;
+}
+
+.about-text p:nth-child(4) {
+    animation-delay: 7s;
+}
+.about-text p:nth-child(5) {
+    animation-delay: 9s;
+}
+.about-text p:nth-child(6) {
+    animation-delay: 11s;
+}
+
+
+
+
+.back-btn {
+    text-decoration: none;
+    color: #151313;
+    font-weight: bold;
+    float: right;
+    text-align: left;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #8ab7f3;
+    color: #f59999;
+}
+footer {
+    background-color: #ffcccc;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

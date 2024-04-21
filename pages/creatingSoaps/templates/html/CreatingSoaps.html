@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Soaps - SoapVibe</title>
+    <link rel="stylesheet" href="../../group6_part_3/pages/creatingSoaps/static/css/CreatingSoapsStyles.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <br><br><h1>Creating your soap</h1><br>
+        <h4>Choose scent, color, base and additives</h4>
+        <section class="container">
+            <div class="criteria">
+                <h2>Scent</h2>
+                <div class="options">
+                    <label><input type="radio" name="scent" value="lavender"> Lavender</label>
+                    <label><input type="radio" name="scent" value="peppermint"> Peppermint</label>
+                    <label><input type="radio" name="scent" value="lemon"> Lemon</label>
+                    <label><input type="radio" name="scent" value="vanilla"> Vanilla</label>
+                    <label><input type="radio" name="scent" value="orange"> Orange</label>
+                    <label><input type="radio" name="scent" value="eucalyptus"> Eucalyptus</label>
+                    <label><input type="radio" name="scent" value="coconut"> Coconut</label>
+                    <label><input type="radio" name="scent" value="jasmine"> Jasmine</label>
+                </div>
+            </div>
+            <hr>
+            <div class="criteria">
+                <h2>Color</h2>
+                <div class="options">
+                    <label><input type="radio" name="color" value="blue"> Blue</label>
+                    <label><input type="radio" name="color" value="pink"> Pink</label>
+                    <label><input type="radio" name="color" value="green"> Green</label>
+                    <label><input type="radio" name="color" value="purple"> Purple</label>
+                    <label><input type="radio" name="color" value="yellow"> Yellow</label>
+                    <label><input type="radio" name="color" value="orange"> Orange</label>
+                    <label><input type="radio" name="color" value="red"> Red</label>
+                    <label><input type="radio" name="color" value="white"> White</label>
+                </div>
+            </div>
+            <hr>
+            <div class="criteria">
+                <h2>Base</h2>
+                <div class="options">
+                    <label><input type="radio" name="soap-base" value="olive_oil"> Olive Oil</label>
+                    <label><input type="radio" name="soap-base" value="coconut_oil"> Coconut Oil</label>
+                    <label><input type="radio" name="soap-base" value="shea_butter"> Shea Butter</label>
+                    <label><input type="radio" name="soap-base" value="goat_milk"> Goat Milk</label>
+                    <label><input type="radio" name="soap-base" value="almond_oil"> Almond Oil</label>
+                    <label><input type="radio" name="soap-base" value="avocado_oil"> Avocado Oil</label>
+                    <label><input type="radio" name="soap-base" value="castor_oil"> Castor Oil</label>
+                    <label><input type="radio" name="soap-base" value="palm_oil"> Palm Oil</label>
+                </div>
+            </div>
+            <hr>
+            <div class="criteria">
+                <h2>Additives</h2>
+                <div class="options">
+                    <label><input type="checkbox" name="additives" value="oatmeal"> Oatmeal</label>
+                    <label><input type="checkbox" name="additives" value="honey"> Honey</label>
+                    <label><input type="checkbox" name="additives" value="activated_charcoal"> Activated Charcoal</label>
+                    <label><input type="checkbox" name="additives" value="sea_salt"> Sea Salt</label>
+                    <label><input type="checkbox" name="additives" value="coconut_milk"> Coconut Milk</label>
+                    <label><input type="checkbox" name="additives" value="shea_butter"> Shea Butter</label>
+                    <label><input type="checkbox" name="additives" value="coffee_grounds"> Coffee Grounds</label>
+                    <label><input type="checkbox" name="additives" value="almond_oil"> Almond Oil</label>
+                </div>
+            </div>
+            <div class="buttons-container">
+                <button onclick="calculatePrice()">Check Price</button>
+                <button onclick="addSoap('ToCart')">Add to cart</button>
+                <button onclick="addSoap('ToWishlist')">Add to wishlist</button>
+                <button onclick="" class=""><a href="ShoppingCart.html" class="go-to-btn">Go to cart</a></button>
+                <button onclick="" class=""><a href="LikedSoaps.html" class="go-to-btn">Go to wishlist</a></button>
+                <button onclick="" class="back-btn"><a href="FirstPage.html" class="go-to-btn">Back</a></button>
+            </div>
+        </section>
+    </main>
+    <footer><p>&copy; 2024 SoapVibe. All rights reserved.</p></footer>
+    <script src="../JS/CreateSoap.js"></script>
+</body>
+</html>

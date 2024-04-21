@@ -1,0 +1,70 @@
+header {
+    background-color: #ffcccc;
+    color: black;
+    padding: 10px 20px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lavenderblush;
+    background-image: url('https://img.freepik.com/free-photo/shimmery-pink-paint-textured-background_53876-102630.jpg?w=996&t=st=1708698985~exp=1708699585~hmac=b444349ffb33ad83af009ef5e21e1f77c6928d278e6e2aed44877469ad21b842');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{
+    color: #333333;
+    font-size: 65px;
+}
+#userGreeting{
+    color: #333333;
+    font-size: 20px;
+    text-align: center;
+}
+main {
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: lavenderblush;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.box-container {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box {
+    width: 70%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transition: opacity 0.5s ease;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffcccc;
+}
+.boxLinks{
+    text-decoration: none;
+    color: black;
+}
+footer {
+    background-color: #ffcccc;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}

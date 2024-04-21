@@ -1,0 +1,101 @@
+header {
+    background-color: #ffcccc;
+    color: black;
+    padding: 10px 20px;
+}
+main {
+    text-align: center;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/free-photo/shimmery-pink-paint-textured-background_53876-102630.jpg?w=996&t=st=1708698985~exp=1708699585~hmac=b444349ffb33ad83af009ef5e21e1f77c6928d278e6e2aed44877469ad21b842');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.h1-box {
+    background-color: #ffcccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    color: black;
+}
+
+
+h4{
+    color: red;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: lavenderblush;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    animation: fadeIn 1s ease;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.signup-form {
+    padding: 20px;
+}
+.signup-form label {
+    display: block;
+}
+.signup-form #firstName, #lastName, #gender, #email, #username, #password, #dob, #phoneNumber{
+    padding: 10px 15px;
+    margin: 10px;
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+}
+.signup-form #submit {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 50%;
+    background-color: #ffcccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.signup-form #submit:hover {
+    background-color: #8ab7f3;
+    color: black;
+}
+.back-btn {
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    text-align: left;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: black;
+}
+button:hover {
+    background-color: #8ab7f3;
+    color: #f59999;
+}
+footer {
+    background-color: #ffcccc;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
